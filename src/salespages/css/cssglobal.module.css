@@ -16,14 +16,14 @@
 }
 
 .container1 {
+    background-image:  linear-gradient(180deg, rgba(192, 253, 244, 0.790792) 3.05%, rgba(5, 155, 132, 0.664) 30.36%), url(/src/data/images/background/hotelbg600x63132.jpg);
+    background-repeat: no-repeat;
     object-fit: cover;
     justify-content: center;
     align-items: center;
     position: relative;
     width: 600px;
     height: 631.32px;
-    background-image:  linear-gradient(180deg, rgba(192, 253, 244, 0.790792) 3.05%, rgba(5, 155, 132, 0.664) 30.36%), url(/src/data/images/background/hotelbg600x631,32.jpg);
-    background-repeat: no-repeat;
 }
 
 .gplogo {
@@ -310,3 +310,68 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 343px) {
+    .circle {
+        width: 135px;
+        height: 135px;
+    }
+    
+    .divname {
+        margin-top: 175px;
+        margin-bottom: 40px;
+        margin-left: 1px;
+        margin-right: 1px;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-family: 'Lato';
+        font-size: 18px;
+    }
+    
+    .divjabatan {
+        justify-content: center;
+        margin-top: 205px;
+        padding: 2px 55px;
+    }
+    
+    .jabatan {
+        display: contents;
+        justify-content: center;
+        font-weight: lighter;
+        font-size: 13px;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    .notelp {
+        position: absolute;
+        margin-top: 320px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    
+    .container1 {
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 400px;
+    }
+  }
+
+@media only screen and (max-width: 317px) {
+
+    .main {
+        width: fit-content;
+    }
+
+    .wrapper {
+        width: fit-content;
+    }
+
+    .imagediv {
+        width: fit-content;
+    }
+  }
