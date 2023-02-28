@@ -4,7 +4,7 @@ import css from "../salespages/css/cssglobal.module.css";
 //logo
 import gplogo from "../data/images/logobandungan.jpg";
 //avatar
-import avatar from "../data/images/avatars/sales/compressed/ronierawiguna.jpg"
+import avatar from "../data/images/avatars/sales/compressed/danususanto.jpg"
 
 //Icons
 import igicon from "../data/images/media-icons/ig215x215.png";
@@ -22,7 +22,7 @@ import ucimage2 from "../data/images/imageshow/uncompressed/images2.png";
 import ucimage3 from "../data/images/imageshow/uncompressed/images3.png";
 import ucimage4 from "../data/images/imageshow/uncompressed/images4.png";
 
-function RoniEraWiguna() {
+function DanuSusanto() {
 
   return (
     <div>
@@ -57,12 +57,12 @@ function RoniEraWiguna() {
         </div>
       </div>
       <div className={css.divname}>
-          <p>RONI ERA WIGUNA</p>
+          <p>DANU SUSANTO, A.md.Par.</p>
         </div>
         <div className={css.divjabatan}>
-          <p className={css.jabatan}>Sales Manager</p>
+          <p className={css.jabatan}>General Manager</p>
         </div>
-        <p className={css.notelp}>0812 2811 0720</p>
+        <p className={css.notelp}>0813 2731 9625</p>
       </div>
       <div className={css.cs2div}>
       
@@ -86,7 +86,7 @@ function RoniEraWiguna() {
   
         <div className={css.whatsapp}>
       
-   <a href={`https://api.whatsapp.com/send?phone=6281228110720`}
+   <a href={`https://api.whatsapp.com/send?phone=6281327319625`}
    target="_blank"
    rel="noopener noreferrer">
 <img src={waicon} alt="" className={css.whatsappavatar}/>
@@ -108,7 +108,7 @@ function RoniEraWiguna() {
         <a href={`https://www.tiktok.com/@griyapersada.bandungan`}
    target="_blank"
    rel="noopener noreferrer" className={css.productstext}><p>Tiktok</p></a>
-        <a href={`https://api.whatsapp.com/send?phone=6281228110720`}
+        <a href={`https://api.whatsapp.com/send?phone=6281327319625`}
    target="_blank"
    rel="noopener noreferrer" className={css.productstext}><p>Whatsapp</p></a>
         <a href={`https://drive.google.com/drive/folders/114ASyPVsJ1KbBOj8qEghmDJjHE4Wxal_`}
@@ -169,4 +169,4 @@ function RoniEraWiguna() {
   )
 }
 
-export default RoniEraWiguna;
+export default DanuSusanto;

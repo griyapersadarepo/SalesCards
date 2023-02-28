@@ -4,7 +4,7 @@ import css from "../salespages/css/cssglobal.module.css";
 //logo
 import gplogo from "../data/images/logobandungan.jpg";
 //avatar
-import avatar from "../data/images/avatars/sales/wulancahyani.jpg"
+import avatar from "../data/images/avatars/sales/compressed/wulancahyani.jpg"
 
 //Icons
 import igicon from "../data/images/media-icons/ig215x215.png";

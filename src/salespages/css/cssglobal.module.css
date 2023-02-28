@@ -60,8 +60,8 @@
 .divname {
     margin-top: 175px;
     margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 1px;
+    margin-right: 1px;
     position: absolute;
     text-align: center;
     color: white;
