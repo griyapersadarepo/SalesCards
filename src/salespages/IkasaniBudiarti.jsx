@@ -27,7 +27,6 @@ function IkasaniBudiarti() {
 
   return (
     <div>
-    <LazyLoad placeholder={<div>Loading content....</div>}>
    <div className={css.main}>
    <div className={css.canva}>
       
@@ -125,7 +124,7 @@ function IkasaniBudiarti() {
           target="_blank"
           rel="noopener noreferrer">
           <div className={css.image1}>
-          <LazyLoad offset={1500} placeholder={<div>Loading images.....</div>}>
+          <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
               <img src={images1} alt="Image1" className={css.image1}/>
           </LazyLoad>
           </div>
@@ -134,7 +133,7 @@ function IkasaniBudiarti() {
          target="_blank"
          rel="noopener noreferrer">
         <div className={css.image2}>
-          <LazyLoad offset={1500} placeholder={<div>Loading images.....</div>}>
+          <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
               <img src={images2} alt="Image2" className={css.image2}/>
           </LazyLoad>
           </div>
@@ -143,7 +142,7 @@ function IkasaniBudiarti() {
           target="_blank"
           rel="noopener noreferrer">
         <div className={css.image3}>
-         <LazyLoad offset={1500} placeholder={<div>Loading images.....</div>}>
+         <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
               <img src={images3} alt="Image3" className={css.image3}/>
           </LazyLoad>
         </div>
@@ -152,7 +151,7 @@ function IkasaniBudiarti() {
           target="_blank"
           rel="noopener noreferrer">
         <div className={css.image4}>
-          <LazyLoad offset={1500} placeholder={<div>Loading images.....</div>}>
+          <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
               <img src={images4} alt="Image4" className={css.image4}/>
           </LazyLoad>
         </div>
@@ -177,7 +176,6 @@ function IkasaniBudiarti() {
       </div>
     </div>
     </div>
-    </LazyLoad>
    </div>
   )
 }
