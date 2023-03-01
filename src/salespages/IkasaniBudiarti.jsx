@@ -13,10 +13,10 @@ import waicon from "../data/images/media-icons/wa215x215.png";
 import smileicon from "../data/images/media-icons/smile215x215.png";
 
 //Media-images
-import images1 from "../data/images/imageshow/images1.png";
-import images2 from "../data/images/imageshow/images2.png";
-import images3 from "../data/images/imageshow/images3.png";
-import images4 from "../data/images/imageshow/images4.png";
+import images1 from "../data/images/imageshow/images1.jpg";
+import images2 from "../data/images/imageshow/images2.jpg";
+import images3 from "../data/images/imageshow/images3.jpg";
+import images4 from "../data/images/imageshow/images4.jpg";
 import ucimage1 from "../data/images/imageshow/uncompressed/images1.png";
 import ucimage2 from "../data/images/imageshow/uncompressed/images2.png";
 import ucimage3 from "../data/images/imageshow/uncompressed/images3.png";
