@@ -3,9 +3,9 @@ import LazyLoad from "react-lazy-load";
 //css
 import css from "../salespages/css/cssglobal.module.css";
 //logo
-import gplogo from "../data/images/logobandungan.jpg";
+import gplogo from "../data/images/logobandungan.webp";
 //avatar
-import avatar from "../data/images/avatars/sales/compressed/ikasanibudiarti.jpg"
+import avatar from "../data/images/avatars/sales/webp/ikasanibudiarti.webp"
 
 //Icons
 import igicon from "../data/images/media-icons/ig215x215.png";
@@ -14,10 +14,10 @@ import waicon from "../data/images/media-icons/wa215x215.png";
 import smileicon from "../data/images/media-icons/smile215x215.png";
 
 //Media-images
-import images1 from "../data/images/imageshow/images1.jpg";
-import images2 from "../data/images/imageshow/images2.jpg";
-import images3 from "../data/images/imageshow/images3.jpg";
-import images4 from "../data/images/imageshow/images4.jpg";
+import images1 from "../data/images/imageshow/images1.webp";
+import images2 from "../data/images/imageshow/images2.webp";
+import images3 from "../data/images/imageshow/images3.webp";
+import images4 from "../data/images/imageshow/images4.webp";
 import ucimage1 from "../data/images/imageshow/uncompressed/images1.png";
 import ucimage2 from "../data/images/imageshow/uncompressed/images2.png";
 import ucimage3 from "../data/images/imageshow/uncompressed/images3.png";
