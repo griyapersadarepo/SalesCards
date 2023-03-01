@@ -47,12 +47,12 @@ function ZainalIlmi() {
       </div>
       </div>
       <div className={css.gplogo}>
-        <img src={gplogo} alt="" className={css.gplogoimg}/>
+        <img src={gplogo} alt="gplogo" className={css.gplogoimg}/>
       </div>
       <div className={css.circle}>
         <div className={css.avatardiv}>
           <div className={css.avatar}>
-          <img src={avatar} alt="" className={css.avatarcss} />  
+          <img src={avatar} alt="GriyaPersadaSalesBandungan" className={css.avatarcss} />  
           </div>
         </div>
       </div>
@@ -73,14 +73,14 @@ function ZainalIlmi() {
       <a href={`https://www.instagram.com/griyapersadahotel.bandungan/`}
    target="_blank"
    rel="noopener noreferrer">
-<img src={igicon} alt="" className={css.igavatar}/>
+<img src={igicon} alt="igicon" className={css.igavatar}/>
 </a>
         </div>
         <div className={css.tiktok}>
         <a href={`https://www.tiktok.com/@griyapersada.bandungan`}
    target="_blank"
    rel="noopener noreferrer">
-<img src={tiktokicon} alt="" className={css.tiktokavatar}/>
+<img src={tiktokicon} alt="tiktokicon" className={css.tiktokavatar}/>
 </a>
         </div>
   
@@ -89,14 +89,14 @@ function ZainalIlmi() {
    <a href={`https://api.whatsapp.com/send?phone=6285647018369`}
    target="_blank"
    rel="noopener noreferrer">
-<img src={waicon} alt="" className={css.whatsappavatar}/>
+<img src={waicon} alt="waicon" className={css.whatsappavatar}/>
 </a>
         </div>
         <div className={css.products}>
         <a href={`https://drive.google.com/drive/folders/114ASyPVsJ1KbBOj8qEghmDJjHE4Wxal_`}
    target="_blank"
    rel="noopener noreferrer">
-<img src={smileicon} alt="" className={css.productsavatar}/>
+<img src={smileicon} alt="smileicon" className={css.productsavatar}/>
 </a>
         </div>
       </div>
