@@ -20,8 +20,8 @@ function ImagesShow() {
             target="_blank"
             rel="noopener noreferrer">
             <div className={css.image1}>
-            <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-                <img src={images1} alt="Image1" className={css.image1}/>
+            <LazyLoad placeholder={<div>Loading images.....</div>}>
+                <img src={images1} alt="Image1" className={css.image1} loading="lazy"/>
             </LazyLoad>
             </div>
             </a>
@@ -29,8 +29,8 @@ function ImagesShow() {
             target="_blank"
             rel="noopener noreferrer">
             <div className={css.image2}>
-            <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-                <img src={images2} alt="Image2" className={css.image2}/>
+            <LazyLoad placeholder={<div>Loading images.....</div>}>
+                <img src={images2} alt="Image2" className={css.image2} loading="lazy"/>
             </LazyLoad>
             </div>
         </a>
@@ -38,8 +38,8 @@ function ImagesShow() {
             target="_blank"
             rel="noopener noreferrer">
             <div className={css.image3}>
-            <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-                <img src={images3} alt="Image3" className={css.image3}/>
+            <LazyLoad placeholder={<div>Loading images.....</div>}>
+                <img src={images3} alt="Image3" className={css.image3} loading="lazy"/>
             </LazyLoad>
             </div>
             </a>
@@ -47,8 +47,8 @@ function ImagesShow() {
             target="_blank"
             rel="noopener noreferrer">
             <div className={css.image4}>
-            <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-                <img src={images4} alt="Image4" className={css.image4}/>
+            <LazyLoad placeholder={<div>Loading images.....</div>}>
+                <img src={images4} alt="Image4" className={css.image4} loading="lazy"/>
             </LazyLoad>
             </div>
             </a>

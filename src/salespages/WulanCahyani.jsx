@@ -1,6 +1,6 @@
-import React from "react";
+import React, { lazy, Suspense } from 'react';
 //Components
-import ImagesShow from "./components/imagesShow";
+//import ImagesShow from "./components/imagesShow";
 //css
 import css from "../salespages/css/cssglobal.module.css";
 //logo
@@ -15,7 +15,7 @@ import waicon from "../data/images/media-icons/wa215x215.webp";
 import smileicon from "../data/images/media-icons/smile215x215.webp";
 
 function WulanCahyani() {
-
+  const ImagesShow = lazy(() => import('./components/imagesShow'));
   return (
     <div>
     <div className={css.main}>
@@ -39,7 +39,7 @@ function WulanCahyani() {
        </div>
        </div>
        <div className={css.gplogo}>
-         <img src={gplogo} alt="gplogo" className={css.gplogoimg}/>
+       <img src={gplogo} alt="gplogo" className={css.gplogoimg} loading="lazy"/>
        </div>
        <div className={css.circle}>
          <div className={css.avatardiv}>
@@ -108,7 +108,9 @@ function WulanCahyani() {
     rel="noopener noreferrer" className={css.productstext}><p>Products</p></a>
        </div>
        </div>
-      <ImagesShow/>
+       <Suspense fallback={<div>Loading...</div>}>
+       <ImagesShow/>
+     </Suspense>
         <div className={css.googlemap}>
          <div className={css.divicon}>
            <div className={css.icon}></div>
