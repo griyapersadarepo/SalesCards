@@ -99,10 +99,10 @@ function RoniEraWiguna() {
    rel="noopener noreferrer" className={css.productstext}><p>Instagram</p></a>
         <a href={`https://www.tiktok.com/@griyapersada.bandungan`}
    target="_blank"
-   rel="noopener noreferrer" className={css.productstext}><p>Tiktok</p></a>
+   rel="noopener noreferrer" className={css.productstext}><p className={css.tiktoktext}>Tiktok</p></a>
         <a href={`https://wa.me/6281228110720?text=Hallo%20Roni%20Era%20Wiguna`}
    target="_blank"
-   rel="noopener noreferrer" className={css.productstext}><p>Whatsapp</p></a>
+   rel="noopener noreferrer" className={css.productstext}><p className={css.watext}>Whatsapp</p></a>
         <a href={`https://drive.google.com/drive/folders/114ASyPVsJ1KbBOj8qEghmDJjHE4Wxal_`}
    target="_blank"
    rel="noopener noreferrer" className={css.productstext}><p>Products</p></a>

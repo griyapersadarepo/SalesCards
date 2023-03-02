@@ -6,10 +6,11 @@ import images1 from "../../data/images/imageshow/images1.webp";
 import images2 from "../../data/images/imageshow/images2.webp";
 import images3 from "../../data/images/imageshow/images3.webp";
 import images4 from "../../data/images/imageshow/images4.webp";
-import ucimage1 from "../../data/images/imageshow/uncompressed/images1.png";
-import ucimage2 from "../../data/images/imageshow/uncompressed/images2.png";
-import ucimage3 from "../../data/images/imageshow/uncompressed/images3.png";
-import ucimage4 from "../../data/images/imageshow/uncompressed/images4.png";
+import ucimage1 from "../../data/images/imageshow/uncompressed/images1.webp";
+import ucimage2 from "../../data/images/imageshow/uncompressed/images2.webp";
+import ucimage3 from "../../data/images/imageshow/uncompressed/images3.webp";
+import ucimage4 from "../../data/images/imageshow/uncompressed/images4.webp";
+
 
 function ImagesShow() {
 
