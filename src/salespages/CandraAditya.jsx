@@ -1,5 +1,6 @@
 import React from "react";
-import LazyLoad from "react-lazy-load";
+//Components
+import ImagesShow from "./components/imagesShow";
 //css
 import css from "../salespages/css/cssglobal.module.css";
 //logo
@@ -8,20 +9,10 @@ import gplogo from "../data/images/logobandungan.webp";
 import avatar from "../data/images/avatars/sales/webp/candraaditya.webp"
 
 //Icons
-import igicon from "../data/images/media-icons/ig215x215.png";
-import tiktokicon from "../data/images/media-icons/tiktok215x215.png";
-import waicon from "../data/images/media-icons/wa215x215.png";
-import smileicon from "../data/images/media-icons/smile215x215.png";
-
-//Media-images
-import images1 from "../data/images/imageshow/images1.webp";
-import images2 from "../data/images/imageshow/images2.webp";
-import images3 from "../data/images/imageshow/images3.webp";
-import images4 from "../data/images/imageshow/images4.webp";
-import ucimage1 from "../data/images/imageshow/uncompressed/images1.png";
-import ucimage2 from "../data/images/imageshow/uncompressed/images2.png";
-import ucimage3 from "../data/images/imageshow/uncompressed/images3.png";
-import ucimage4 from "../data/images/imageshow/uncompressed/images4.png";
+import igicon from "../data/images/media-icons/ig215x215.webp";
+import tiktokicon from "../data/images/media-icons/tiktok215x215.webp";
+import waicon from "../data/images/media-icons/wa215x215.webp";
+import smileicon from "../data/images/media-icons/smile215x215.webp";
 
 function CandraAditya() {
 
@@ -63,6 +54,7 @@ function CandraAditya() {
         <div className={css.divjabatan}>
           <p className={css.jabatan}>Sales Executive</p>
         </div>
+
         <p className={css.notelp}>0877 1997 3048</p>
       </div>
       <div className={css.cs2div}>
@@ -87,7 +79,7 @@ function CandraAditya() {
   
         <div className={css.whatsapp}>
       
-   <a href={`https://api.whatsapp.com/send?phone=6287719973048`}
+   <a href={`https://wa.me/6287719973048?text=Hallo%20Candra%20Aditya`}
    target="_blank"
    rel="noopener noreferrer">
 <img src={waicon} alt="waicon" className={css.whatsappavatar}/>
@@ -109,7 +101,7 @@ function CandraAditya() {
         <a href={`https://www.tiktok.com/@griyapersada.bandungan`}
    target="_blank"
    rel="noopener noreferrer" className={css.productstext}><p>Tiktok</p></a>
-        <a href={`https://api.whatsapp.com/send?phone=6287719973048`}
+        <a href={`https://wa.me/6287719973048?text=Hallo%20Candra%20Aditya`}
    target="_blank"
    rel="noopener noreferrer" className={css.productstext}><p>Whatsapp</p></a>
         <a href={`https://drive.google.com/drive/folders/114ASyPVsJ1KbBOj8qEghmDJjHE4Wxal_`}
@@ -117,44 +109,7 @@ function CandraAditya() {
    rel="noopener noreferrer" className={css.productstext}><p>Products</p></a>
       </div>
       </div>
-      <div className={css.imagediv}>
-      <a href={ucimage1}
-          target="_blank"
-          rel="noopener noreferrer">
-          <div className={css.image1}>
-          <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-              <img src={images1} alt="Image1" className={css.image1}/>
-          </LazyLoad>
-          </div>
-        </a>
-       <a href={ucimage2}
-         target="_blank"
-         rel="noopener noreferrer">
-        <div className={css.image2}>
-          <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-              <img src={images2} alt="Image2" className={css.image2}/>
-          </LazyLoad>
-          </div>
-       </a>
-        <a href={ucimage3}
-          target="_blank"
-          rel="noopener noreferrer">
-        <div className={css.image3}>
-         <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-              <img src={images3} alt="Image3" className={css.image3}/>
-          </LazyLoad>
-        </div>
-        </a>
-        <a href={ucimage4}
-          target="_blank"
-          rel="noopener noreferrer">
-        <div className={css.image4}>
-          <LazyLoad offset={800} placeholder={<div>Loading images.....</div>}>
-              <img src={images4} alt="Image4" className={css.image4}/>
-          </LazyLoad>
-        </div>
-        </a>
-      </div>
+     <ImagesShow/>
        <div className={css.googlemap}>
         <div className={css.divicon}>
           <div className={css.icon}></div>

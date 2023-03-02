@@ -211,6 +211,7 @@
 }
 
 .text1 {
+    margin-left: 4.5px;
     position: relative;
     margin-top: -375px;
     display: flex; 
@@ -263,7 +264,7 @@
 .icon {
     width: 45px;
     height: 26.38px;
-    background-image: url("/src/data/images/media-icons/locicon45x26,38.png");
+    background-image: url("/src/data/images/media-icons/locicon45x2638.webp");
     background-repeat: no-repeat;
 }
 

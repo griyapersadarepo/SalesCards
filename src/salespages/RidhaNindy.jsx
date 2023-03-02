@@ -6,7 +6,7 @@ import css from "../salespages/css/cssglobal.module.css";
 //logo
 import gplogo from "../data/images/logobandungan.webp";
 //avatar
-import avatar from "../data/images/avatars/sales/webp/ronierawiguna.webp"
+import avatar from "../data/images/avatars/sales/webp/nindy1.webp"
 
 //Icons
 import igicon from "../data/images/media-icons/ig215x215.webp";
@@ -14,7 +14,7 @@ import tiktokicon from "../data/images/media-icons/tiktok215x215.webp";
 import waicon from "../data/images/media-icons/wa215x215.webp";
 import smileicon from "../data/images/media-icons/smile215x215.webp";
 
-function RoniEraWiguna() {
+function RidhaNindy() {
 
   return (
     <div>
@@ -49,12 +49,12 @@ function RoniEraWiguna() {
         </div>
       </div>
       <div className={css.divname}>
-          <p>RONI ERA WIGUNA,S.Ip</p>
+          <p>RIDHA NINDY HAVANA</p>
         </div>
         <div className={css.divjabatan}>
-          <p className={css.jabatan}>Sales Manager</p>
+          <p className={css.jabatan}>Sales Executive</p>
         </div>
-        <p className={css.notelp}>0812 2811 0720</p>
+        <p className={css.notelp}>0896 6764 4970</p>
       </div>
       <div className={css.cs2div}>
       
@@ -78,7 +78,7 @@ function RoniEraWiguna() {
   
         <div className={css.whatsapp}>
       
-   <a href={`https://wa.me/6281228110720?text=Hallo%20Roni%20Era%20Wiguna`}
+   <a href={`https://wa.me/6289667644970?text=Hallo%20Ridha%20Nindy%20Havana`}
    target="_blank"
    rel="noopener noreferrer">
 <img src={waicon} alt="waicon" className={css.whatsappavatar}/>
@@ -100,7 +100,7 @@ function RoniEraWiguna() {
         <a href={`https://www.tiktok.com/@griyapersada.bandungan`}
    target="_blank"
    rel="noopener noreferrer" className={css.productstext}><p>Tiktok</p></a>
-        <a href={`https://wa.me/6281228110720?text=Hallo%20Roni%20Era%20Wiguna`}
+        <a href={`https://wa.me/6289667644970?text=Hallo%20Ridha%20Nindy%20Havana`}
    target="_blank"
    rel="noopener noreferrer" className={css.productstext}><p>Whatsapp</p></a>
         <a href={`https://drive.google.com/drive/folders/114ASyPVsJ1KbBOj8qEghmDJjHE4Wxal_`}
@@ -132,4 +132,4 @@ function RoniEraWiguna() {
   )
 }
 
-export default RoniEraWiguna;
+export default RidhaNindy;

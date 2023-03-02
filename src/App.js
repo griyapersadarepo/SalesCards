@@ -7,6 +7,7 @@ import IkasaniBudiarti from "./salespages/IkasaniBudiarti";
 import ZainalIlmi from "./salespages/ZainalIlmi";
 import TaqwimEka from "./salespages/TaqwimEka";
 import DanuSusanto from "./salespages/DanuSusanto";
+import RidhaNindy from "./salespages/RidhaNindy";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/candraaditya" element={<CandraAditya />} />
       <Route path="/wulancahyani" element={<WulanCahyani />} />
       <Route path="/intanrara" element={<IntanRara />} />
+      <Route path="/ridhanindy" element={<RidhaNindy />} />
       <Route path="/ikasanibudiarti" element={<IkasaniBudiarti />} />
       <Route path="/zainalilmi" element={<ZainalIlmi />} />
       <Route path="/taqwimeka" element={<TaqwimEka />} />
