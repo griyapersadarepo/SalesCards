@@ -149,6 +149,7 @@
 .container3 {
     display: flex; 
     height: 310px;
+    margin-bottom: -350px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -636,4 +637,22 @@
         margin-top: 3300px;
         position: absolute;
     }
+  }
+
+  .igdivtext {
+    margin-top:29px;
+    margin-left: 36px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .igtext {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    color: #ede2e2;
+    font-size: 11px;
+    font-weight: bold;
+    
   }
