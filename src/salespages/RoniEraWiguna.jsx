@@ -49,7 +49,7 @@ function RoniEraWiguna() {
         </div>
       </div>
       <div className={css.divname}>
-          <p>RONI ERA WIGUNA,S.Ip</p>
+          <p>RONI ERA WIGUNA, S.Ip</p>
         </div>
         <div className={css.divjabatan}>
           <p className={css.jabatan}>Sales Manager</p>
@@ -66,6 +66,9 @@ function RoniEraWiguna() {
    target="_blank"
    rel="noopener noreferrer">
 <img src={igicon} alt="igicon" className={css.igavatar}/>
+    <div className={css.igdivtext}>
+      <p className={css.igtext}>Instagram</p>
+    </div>
 </a>
         </div>
         <div className={css.tiktok}>
@@ -73,6 +76,9 @@ function RoniEraWiguna() {
    target="_blank"
    rel="noopener noreferrer">
 <img src={tiktokicon} alt="tiktokicon" className={css.tiktokavatar}/>
+<div className={css.igdivtext}>
+      <p className={css.igtext}>Tiktok</p>
+    </div>
 </a>
         </div>
   
@@ -82,6 +88,9 @@ function RoniEraWiguna() {
    target="_blank"
    rel="noopener noreferrer">
 <img src={waicon} alt="waicon" className={css.whatsappavatar}/>
+<div className={css.igdivtext}>
+      <p className={css.igtext}>Whatsapp</p>
+    </div>
 </a>
         </div>
         <div className={css.products}>
@@ -89,24 +98,13 @@ function RoniEraWiguna() {
    target="_blank"
    rel="noopener noreferrer">
 <img src={smileicon} alt="smileicon" className={css.productsavatar}/>
+<div className={css.igdivtext}>
+      <p className={css.igtext}>Products</p>
+    </div>
 </a>
         </div>
       </div>
        </div>
-      <div className={css.text1}>
-      <a href={`https://www.instagram.com/griyapersadahotel.bandungan/`}
-   target="_blank"
-   rel="noopener noreferrer" className={css.productstext}><p>Instagram</p></a>
-        <a href={`https://www.tiktok.com/@griyapersada.bandungan`}
-   target="_blank"
-   rel="noopener noreferrer" className={css.productstext}><p className={css.tiktoktext}>Tiktok</p></a>
-        <a href={`https://wa.me/6281228110720?text=Hallo%20Roni%20Era%20Wiguna`}
-   target="_blank"
-   rel="noopener noreferrer" className={css.productstext}><p className={css.watext}>Whatsapp</p></a>
-        <a href={`https://drive.google.com/drive/folders/114ASyPVsJ1KbBOj8qEghmDJjHE4Wxal_`}
-   target="_blank"
-   rel="noopener noreferrer" className={css.productstext}><p>Products</p></a>
-      </div>
       </div>
       <Suspense fallback={<div>Loading...</div>}>
         <ImagesShow/>

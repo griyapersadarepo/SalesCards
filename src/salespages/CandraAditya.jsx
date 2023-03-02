@@ -109,23 +109,6 @@ function CandraAditya() {
         </div>
       </div>
        </div>
-        
-     {/*
-      <div className={css.text1}>
-              <a href={`https://www.instagram.com/griyapersadahotel.bandungan/`}
-          target="_blank"
-          rel="noopener noreferrer" className={css.productstext}><p>Instagram</p></a>
-                <a href={`https://www.tiktok.com/@griyapersada.bandungan`}
-          target="_blank"
-          rel="noopener noreferrer" className={css.productstext}><p className={css.tiktoktext}>Tiktok</p></a>
-                <a href={`https://wa.me/6287719973048?text=Hallo%20Candra%20Aditya`}
-          target="_blank"
-          rel="noopener noreferrer" className={css.productstext}><p className={css.watext}>Whatsapp</p></a>
-                <a href={`https://drive.google.com/drive/folders/114ASyPVsJ1KbBOj8qEghmDJjHE4Wxal_`}
-          target="_blank"
-          rel="noopener noreferrer" className={css.productstext}><p>Products</p></a>
-      </div>*/}
-
       </div>
       <Suspense fallback={<div>Loading...</div>}>
        <ImagesShow/>
