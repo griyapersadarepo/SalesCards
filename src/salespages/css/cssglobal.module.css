@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 .main {
     background-color:  #FBF2E9;
     height: 2320px;
@@ -65,7 +68,7 @@
     position: absolute;
     text-align: center;
     color: white;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 25px;
 }
 
@@ -81,7 +84,7 @@
 .jabatan {
     display: contents;
     justify-content: center;
-    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
     color: white;

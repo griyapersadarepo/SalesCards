@@ -6,7 +6,7 @@ import css from "../salespages/css/cssglobal.module.css";
 //logo
 import gplogo from "../data/images/logobandungan.webp";
 //avatar
-import avatar from "../data/images/avatars/sales/webp/nindy1.webp"
+import avatar from "../data/images/avatars/sales/webp/nindy.webp"
 
 //Icons
 import igicon from "../data/images/media-icons/ig215x215.webp";
